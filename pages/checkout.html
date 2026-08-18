@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Complete your enrollment at MetaMind Academy by entering your payment details and reviewing your order before payment."
+    />
+    <title>Checkout | MetaMind Academy</title>
+  </head>
+  <body>
+    <!-- Start  Navigation -->
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="course-details.html">Course Details</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="checkout.html">Checkout</a></li>
+        <li><a href="confirmation.html">Confirmation</a></li>
+        <!-- Start Instructors Section Links -->
+        <li>
+          <a href="../instructors-Section/instructors.html">Instructors</a>
+        </li>
+        <li><a href="../instructors-Section/blog.html">Blog</a></li>
+        <li><a href="../instructors-Section/faq.html">FAQ</a></li>
+        <li>
+          <a href="../instructors-Section/testimonials.html">Testimonials</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Check Out</h1>
+      <!-- Start Payment Information -->
+      <form>
+        <fieldset>
+          <legend>Payment Information</legend>
+          <div>
+            <label for="name">User Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="write your name"
+              required
+            />
+          </div>
+          <br />
+          <div>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="write your email"
+              required
+            />
+          </div>
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend>Card Information</legend>
+          <div>
+            <label for="card-name">Card Name</label>
+            <input
+              type="text"
+              name="card-name"
+              id="card-name"
+              placeholder="write your card name"
+              required
+            />
+          </div>
+          <br />
+          <div>
+            <label for="card-number">Card Number</label>
+            <input
+              type="text"
+              name="card-number"
+              id="card-number"
+              placeholder="write your card number"
+              required
+            />
+          </div>
+          <br />
+          <div>
+            <label for="cardholder-name">Cardholder Name</label>
+            <input
+              type="password"
+              name="password"
+              id="cardholder-name"
+              placeholder="write your password"
+              required
+            />
+          </div>
+          <br />
+          <div>
+            <label for="cvv">CVV</label>
+            <input
+              type="text"
+              name="cvv"
+              id="cvv"
+              placeholder="write your CVV"
+              required
+            />
+          </div>
+          <br />
+          <div>
+            <label for="expiry-date">Expiry Date</label>
+            <input
+              type="date"
+              name="expiry-date"
+              id="expiry-date"
+              placeholder="write your expiry date"
+              required
+            />
+          </div>
+        </fieldset>
+      </form>
+      <br />
+      <!-- Start Order Summary -->
+      <table width="50%" border="1">
+        <caption>
+          Order Summary
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Selected Course</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>cybersecurity</td>
+            <td>1 Course</td>
+            <td>EGP 1100</td>
+          </tr>
+          <tr>
+            <td>Personal Branding</td>
+            <td>1 Course</td>
+            <td>EGP 600</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th scope="row">Total</th>
+            <td>2 Course</td>
+            <td>EGP 1700</td>
+          </tr>
+        </tfoot>
+      </table>
+      <br />
+      <!-- Start Checkout  -->
+      <a href="confirmation.html">Checkout</a>
+    </main>
+    <!-- Start Footer -->
+    <footer>
+      <p>&copy; 2026 MetaMind Academy. All rights reserved.</p>
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/mai-mostafa-b61377373"
+            >LinkedIn</a
+          >
+        </li>
+        <li>
+          <a href="https://wa.me/2001124294904" target="_blank"
+            >Contact on Whatsapp</a
+          >
+        </li>
+        <li><a href="mailto:mai.mostafa.dev@gmail.com">Email</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

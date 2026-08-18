@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+    name="description"
+    content="Register as a new student at MetaMind Academy and start your learning journey."
+>
+    <title>Student Registration | MetaMind Academy</title>
+</head>
+<body>
+    <!-- Start  Navigation -->
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="course-details.html">Course Details</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="checkout.html">Checkout</a></li>
+        <li><a href="confirmation.html">Confirmation</a></li>
+        <!-- Instructors Section Links -->
+        <li>
+          <a href="../instructors-Section/instructors.html">Instructors</a>
+        </li>
+        <li><a href="../instructors-Section/blog.html">Blog</a></li>
+        <li><a href="../instructors-Section/faq.html">FAQ</a></li>
+        <li>
+          <a href="../instructors-Section/testimonials.html">Testimonials</a>
+        </li>
+      </ul>
+    </nav>
+    <!--A New Student Registration Page -->
+    <main>
+        <h1>New Student Registration</h1>
+        <form>
+            <fieldset>
+                <legend>Student data</legend>
+                <!-- field user name -->
+                <div>
+                    <label for="username">User Name</label>
+                    <input type="text" id="username" placeholder="write your name" name="name" required>
+                </div>
+                <!-- field user date of birth -->
+                <br>
+                <div>
+                    <label for="date">Date of Birth</label>
+                    <input type="date" id="date" name="date"  required>
+                </div>
+                <br>
+                <!-- field user email -->
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="write your email" name="email" required>
+                </div>
+                <br>
+                <!-- field user gender -->
+                <div>
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male" value="male">
+                </div>
+            </fieldset>
+            <br>
+<!-- Learning Goals Section -->
+            <div>
+                
+                <fieldset>
+                    <legend>Learning Goals</legend>
+                    <h2>1- What are your learning goals?</h2>
+                    
+                    <div>
+                        
+                        <label for="goal-1">Improve my technical skills</label>
+                        <input type="checkbox" id="goal-1" name="learning-goal-1" value="improve my technical skills">
+                    </div>
+                    <div>
+                        <label for="learning-goal-2">Start a new career</label>
+                        <input type="checkbox" id="goal-2" name="learning-goal-2" value="Start a new career">
+                    </div>
+                    <div>
+                        
+                        <label for="goal-3">Improve my CV</label>
+                        <input type="checkbox" id="goal-3" name="learning-goal-3" value="Improve my CV">
+                    </div>
+                    <div>
+                        <label for="goal-4">Gain practical experience</label>
+                        <input type="checkbox" id="goal-4" name="learning-goal-4" value="Gain practical experience">
+                    </div>
+                    <div>
+                        <label for="goal-5">Get a job</label>
+                        <input type="checkbox" id="goal-5" name="learning-goal-5" value="Get a job">
+                    </div>
+                    
+                    <br>
+                    <!-- field  how did you hear about us -->
+                    <label for="source">How did you hear about us?</label>
+                    <select name="how-did-you-hear" id="source" required>
+                        <option value="">Select an option</option>
+                        <option value="friend or family">Friend or Family</option>
+                        <option value="tiktok">TikTok</option>
+                        <option value="Search engine">Search Engine</option>
+                        <option value="advertisement">Advertisement</option>
+                        <option value="social media">Social Media</option>
+                    </select>
+                    <!-- field  reasons for choosing our platform-->
+                    <div>
+                        <h2>2- What are your reasons for choosing our platform?</h2>
+                        <label for="reasons">Reasons for choosing our platform</label>
+                        <textarea name="reasons"  id="reasons" cols="25" rows="10" placeholder="write your reasons here" required></textarea>
+                    </div>
+                    <br>
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                </fieldset>
+            </form>
+        </main>
+            <!-- Footer -->
+            <footer>
+                <p>&copy; 2026 MetaMind Academy. All rights reserved.</p>
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/mai-mostafa-b61377373"
+                        >LinkedIn</a
+                        >
+                    </li>
+        <li>
+          <a href="https://wa.me/2001124294904" target="_blank"
+            >Contact on Whatsapp</a
+          >
+        </li>
+        <li><a href="mailto:mai.mostafa.dev@gmail.com">Email</a></li>
+      </ul>
+    </footer>
+</body>
+</html>
